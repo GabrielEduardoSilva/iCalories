@@ -11,6 +11,7 @@
 		D31F82212A8D4F1E0091D460 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F82202A8D4F1E0091D460 /* ContentView.swift */; };
 		D31F82232A8D4F1F0091D460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31F82222A8D4F1F0091D460 /* Assets.xcassets */; };
 		D31F82262A8D4F1F0091D460 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31F82252A8D4F1F0091D460 /* Preview Assets.xcassets */; };
+		D31F822F2A8E54E90091D460 /* FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D31F822D2A8E54E90091D460 /* FoodModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D31F82202A8D4F1E0091D460 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D31F82222A8D4F1F0091D460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D31F82252A8D4F1F0091D460 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D31F822E2A8E54E90091D460 /* FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				D31F821E2A8D4F1E0091D460 /* iCaloriesApp.swift */,
 				D31F82202A8D4F1E0091D460 /* ContentView.swift */,
+				D31F822C2A8E54AC0091D460 /* DataModel */,
 				D31F82222A8D4F1F0091D460 /* Assets.xcassets */,
 				D31F82242A8D4F1F0091D460 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				D31F82252A8D4F1F0091D460 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D31F822C2A8E54AC0091D460 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D31F822D2A8E54E90091D460 /* FoodModel.xcdatamodeld */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				D31F82212A8D4F1E0091D460 /* ContentView.swift in Sources */,
 				D31F821F2A8D4F1E0091D460 /* iCaloriesApp.swift in Sources */,
+				D31F822F2A8E54E90091D460 /* FoodModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +351,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D31F822D2A8E54E90091D460 /* FoodModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D31F822E2A8E54E90091D460 /* FoodModel.xcdatamodel */,
+			);
+			currentVersion = D31F822E2A8E54E90091D460 /* FoodModel.xcdatamodel */;
+			path = FoodModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D31F82132A8D4F1E0091D460 /* Project object */;
 }
